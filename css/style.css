@@ -1932,7 +1932,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 140px 0px 150px 0px;
+	padding: 140px 0px 100px 0px;
 }
 
 .ryker_tm_contact .short_info {
@@ -2086,7 +2086,7 @@ h6 {
 	clear: both;
 	float: left;
 	background-color: #d1701f;
-	padding: 80px 0px;
+	padding: 25px 0px;
 }
 .ryker_tm_copyright .copyright_inner {
 	width: 100%;
@@ -2097,7 +2097,7 @@ h6 {
 	justify-content: space-between;
 }
 .ryker_tm_copyright .text p {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-family: "Poppins";
 }
 .ryker_tm_copyright .social ul {
@@ -2115,6 +2115,17 @@ h6 {
 	text-decoration: none;
 	color: #fff;
 	display: block;
+}
+
+.social-svg {
+	width: 20px;
+	height: 20px;
+}
+
+.bugs-link {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000;
 }
 
 /*---------------------------------------------------*/
