@@ -620,7 +620,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 150px 0px 175px 0px;
+	padding: 40px 0px 25px 0px;
 }
 .ryker_tm_about .about_inner {
 	width: 100%;
@@ -812,7 +812,7 @@ h6 {
 	clear: both;
 	float: left;
 	background-color: #f9f9f9;
-	padding: 140px 0px 103px 0px;
+	padding: 40px 0px 10px 0px;
 }
 .ryker_tm_services .services_inner {
 	width: 100%;
@@ -954,7 +954,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 140px 0px 100px 0px;
+	padding: 40px 0px 10px 0px;
 }
 .ryker_tm_portfolio .portfolio_inner {
 	width: 100%;
@@ -1946,7 +1946,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 140px 0px 100px 0px;
+	padding: 40px 0px 50px 0px;
 }
 
 .ryker_tm_contact .short_info {
