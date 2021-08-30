@@ -2205,12 +2205,13 @@ h6 {
 	display: block;
 }
 
+.ryker_tm_copyright .social ul li a svg {
+	color: #000;
+}
+
 .social-svg {
 	width: 20px;
 	height: 20px;
-}
-.social-svg svg {
-	color: #000;
 }
 
 .bugs-link {

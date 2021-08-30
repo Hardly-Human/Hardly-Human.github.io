@@ -307,7 +307,12 @@
 	color: #000000;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_copyright {
-	background-color: #d1701f;
+	/* background-color: #d1701f; */
+	background: linear-gradient(
+		45deg,
+		rgba(248, 163, 23, 1) 50%,
+		rgba(253, 196, 7, 1) 50%
+	);
 }
 .ryker_tm_all_wrap[data-color="brown"]
 	.ryker_tm_modalbox
