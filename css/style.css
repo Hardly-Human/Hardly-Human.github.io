@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb {
 	border: 3px solid #fff;
 }
 svg {
-	/* fill: currentcolor; */
+	fill: currentcolor;
 	width: 15px;
 	height: 15px;
 }
@@ -609,6 +609,9 @@ h6 {
 	transform: translate(-50%, -50%);
 	width: 50px;
 	height: 50px;
+}
+.short_skills .icons ul li .graphql {
+	fill: #e535ab;
 }
 
 /*---------------------------------------------------*/
@@ -1647,14 +1650,14 @@ h6 {
 	clear: both;
 	float: left;
 	background-color: #f9f9f9;
-	padding: 140px 0px 95px 0px;
+	padding: 40px 0px 15px 0px;
 }
 .ryker_tm_news .news_list {
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 90px;
+	padding-top: 20px;
 }
 .ryker_tm_news ul {
 	margin: 0px 0px 0px -50px;
@@ -1828,6 +1831,7 @@ h6 {
 	width: 50px;
 	height: 50px;
 }
+
 .ryker_tm_modalbox .description_wrap {
 	position: relative;
 	width: 100%;
