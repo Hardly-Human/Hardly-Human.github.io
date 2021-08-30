@@ -1957,19 +1957,79 @@ h6 {
 	padding: 40px 0px 50px 0px;
 }
 
+.ryker_tm_contact .social_info {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 30px;
+}
+.ryker_tm_contact .social_info ul {
+	margin: 0px 0px 0px -50px;
+	list-style-type: none;
+}
+.ryker_tm_contact .social_info ul li {
+	float: left;
+	padding-left: 50px;
+}
+.ryker_tm_contact .social_info ul li .list_inner {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+.ryker_tm_contact .social_info ul li .logo {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	/* background-color: #fff; */
+	background: linear-gradient(
+		45deg,
+		rgba(248, 163, 23, 1) 50%,
+		rgba(253, 196, 7, 1) 50%
+	);
+	border-radius: 100%;
+	position: relative;
+	box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
+}
+
+.ryker_tm_contact .social_info ul li .svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 25px;
+	height: 25px;
+	color: #000000;
+	display: block;
+}
+.ryker_tm_contact .social_info ul li .info {
+	padding-left: 30px;
+}
+.ryker_tm_contact .social_info ul li .info h3 {
+	font-size: 16px;
+}
+.ryker_tm_contact .social_info ul li .info span {
+	font-family: "Poppins";
+}
+
 .ryker_tm_contact .short_info {
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 90px;
+	padding-top: 50px;
 }
 .ryker_tm_contact .short_info ul {
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
 .ryker_tm_contact .short_info ul li {
-	margin: 0px 0px 50px 0px;
+	margin: 0px 0px 30px 0px;
 	width: 33.3333%;
 	float: left;
 	padding-left: 50px;
@@ -1986,7 +2046,12 @@ h6 {
 	display: inline-block;
 	width: 65px;
 	height: 65px;
-	background-color: #fff;
+	/* background-color: #fff; */
+	background: linear-gradient(
+		45deg,
+		rgba(248, 163, 23, 1) 50%,
+		rgba(253, 196, 7, 1) 50%
+	);
 	border-radius: 100%;
 	position: relative;
 	box-shadow: 0px 0px 10px rgb(0 0 0 / 9%);
@@ -1998,7 +2063,7 @@ h6 {
 	transform: translate(-50%, -50%);
 	width: 25px;
 	height: 25px;
-	color: #d1701f;
+	color: #000000;
 	display: block;
 }
 .ryker_tm_contact .short_info ul li .info {
@@ -2010,6 +2075,7 @@ h6 {
 .ryker_tm_contact .short_info ul li .info span {
 	font-family: "Poppins";
 }
+
 .ryker_tm_contact .wrapper {
 	width: 100%;
 	height: auto;
