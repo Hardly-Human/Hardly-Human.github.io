@@ -2143,6 +2143,9 @@ h6 {
 	width: 20px;
 	height: 20px;
 }
+.social-svg svg {
+	color: #000;
+}
 
 .bugs-link {
 	cursor: pointer;
