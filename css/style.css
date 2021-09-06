@@ -1279,6 +1279,8 @@ h6 {
 .ryker_tm_modalbox .main_details .detailbox .share li {
 	margin: 0px 13px 0px 0px;
 	display: inline-block;
+	width: 30px;
+	height: 45px;
 }
 .ryker_tm_modalbox .main_details .detailbox .share li:last-child {
 	margin-right: 0px;
@@ -1286,6 +1288,10 @@ h6 {
 .ryker_tm_modalbox .main_details .detailbox .share li a {
 	text-decoration: none;
 	color: #000;
+}
+.ryker_tm_modalbox .main_details .detailbox .share li svg {
+	width: 30px;
+	height: 30px;
 }
 .ryker_tm_modalbox .additional_images {
 	width: 100%;
