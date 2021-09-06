@@ -2087,14 +2087,14 @@
 							>
 								<div class="fields">
 									<form
-										action="/"
-										method="post"
+										action="https://formspree.io/f/xknkkgpr"
+										method="POST"
 										class="contact_form"
 										id="contact_form"
 									>
 										<div
 											class="returnmessage"
-											data-success="Your message has been received, We will contact you soon."
+											data-success="Your message has been received, I will contact you soon."
 										></div>
 										<div class="empty_notice">
 											<span
@@ -2109,15 +2109,15 @@
 														id="name"
 														type="text"
 														placeholder="Name"
-														autocomplete="off"
+                                                        name="name"
 													/>
 												</li>
 												<li>
 													<input
 														id="email"
-														type="text"
+														type="email"
+														name="_replyto"
 														placeholder="Email"
-														autocomplete="off"
 													/>
 												</li>
 											</ul>
@@ -2126,13 +2126,16 @@
 											<textarea
 												id="message"
 												placeholder="Message"
+												name="message"
 											></textarea>
 										</div>
 										<div
 											class="ryker_tm_button"
 											data-color="dark"
 										>
-											<a id="send_message" href="#"
+											<a
+												id="send_message"
+												href="javascript:{}"
 												>Send Message</a
 											>
 										</div>
