@@ -219,7 +219,7 @@ function ryker_tm_preloader() {
 		}, 800);
 		setTimeout(function () {
 			preloader.remove();
-		}, 2000);
+		}, 1500);
 	} else {
 		preloader.remove();
 	}
