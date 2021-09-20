@@ -12,6 +12,7 @@
 		/>
 
 		<title>Rehan | Portfolio</title>
+        <link rel="manifest" href="manifest.json" />
 		<link
 			rel="apple-touch-icon"
 			sizes="180x180"
@@ -2559,6 +2560,16 @@
 		<![endif]-->
 		<script src="js/plugins.js"></script>
 		<script src="js/init.js"></script>
+        <script>
+            if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function() {
+                navigator.serviceWorker
+                .register("/serviceWorker.js")
+                .then(res => console.log("service worker registered"))
+                .catch(err => console.log("service worker not registered", err))
+            })
+            }
+        </script>
 		<!-- /SCRIPTS -->
 	</body>
 </html>
