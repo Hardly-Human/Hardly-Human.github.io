@@ -2554,22 +2554,23 @@
 		<!-- / WRAPPER ALL -->
 
 		<!-- SCRIPTS -->
+        <script>
+            if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function() {
+                navigator.serviceWorker
+                .register("/service-worker.js")
+                .then(res => console.log("service worker registered"))
+                .catch(err => console.log("service worker not registered", err))
+            })
+            }
+        </script>
 		<script src="js/jquery.js"></script>
 		<!--[if lt IE 10]>
 			<script type="text/javascript" src="js/ie8.js"></script>
 		<![endif]-->
 		<script src="js/plugins.js"></script>
 		<script src="js/init.js"></script>
-        <script>
-            if ("serviceWorker" in navigator) {
-            window.addEventListener("load", function() {
-                navigator.serviceWorker
-                .register("/serviceWorker.js")
-                .then(res => console.log("service worker registered"))
-                .catch(err => console.log("service worker not registered", err))
-            })
-            }
-        </script>
+
 		<!-- /SCRIPTS -->
 	</body>
 </html>
