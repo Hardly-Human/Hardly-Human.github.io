@@ -561,6 +561,7 @@ h6 {
 	align-items: center;
 	line-height: 1;
 	position: absolute;
+	top: 80%;
 	bottom: 8%;
 	left: auto;
 }
@@ -597,7 +598,7 @@ h6 {
 	background-color: #fff;
 	border-radius: 100%;
 	position: relative;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .short_skills .icons ul li:last-child {
 	margin-right: 0px;
