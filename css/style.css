@@ -639,7 +639,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 40px 0px 25px 0px;
+	padding: 100px 0px 25px 0px;
 }
 .ryker_tm_about .about_inner {
 	width: 100%;
@@ -831,7 +831,7 @@ h6 {
 	clear: both;
 	float: left;
 	background-color: #f9f9f9;
-	padding: 40px 0px 10px 0px;
+	padding: 100px 0px 10px 0px;
 }
 .ryker_tm_services .services_inner {
 	width: 100%;
@@ -977,7 +977,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 40px 0px 10px 0px;
+	padding: 100px 0px 10px 0px;
 }
 .ryker_tm_portfolio .portfolio_inner {
 	width: 100%;
@@ -1672,7 +1672,7 @@ h6 {
 	clear: both;
 	float: left;
 	background-color: #f9f9f9;
-	padding: 40px 0px 15px 0px;
+	padding: 100px 0px 15px 0px;
 }
 .ryker_tm_news .news_list {
 	width: 100%;
@@ -1976,7 +1976,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 40px 0px 50px 0px;
+	padding: 100px 0px 50px 0px;
 }
 
 .ryker_tm_contact .social_info {
@@ -2141,7 +2141,7 @@ h6 {
 }
 .ryker_tm_contact .fields ul li input:focus {
 	outline: none;
-	border: 1px solid rgba(0, 0, 0, 0.5);
+	border: 1px solid rgb(0, 0, 0);
 }
 .ryker_tm_contact .fields .last textarea {
 	width: 100%;
@@ -2154,7 +2154,7 @@ h6 {
 }
 .ryker_tm_contact .fields .last textarea:focus {
 	outline: none;
-	border: 1px solid rgba(0, 0, 0, 0.5);
+	border: 1px solid rgb(0, 0, 0);
 }
 .ryker_tm_contact .empty_notice {
 	color: #f52225;
