@@ -2491,7 +2491,7 @@
 								data-wow-duration="1.5s"
 							>
 								<p>
-									Copyright &copy; 2021. All rights are
+									Copyright &copy; <a style="text-decoration: none;" id="year">2021</a>. All rights are
 									reserved
 								</p>
 							</div>
@@ -2580,6 +2580,9 @@
 		<![endif]-->
 		<script src="js/plugins.js"></script>
 		<script src="js/init.js"></script>
+        <script>
+            document.getElementById("year").innerText = (new Date()).getFullYear()
+        </script>
 
 		<!-- /SCRIPTS -->
 	</body>
