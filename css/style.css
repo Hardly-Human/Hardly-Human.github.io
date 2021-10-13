@@ -31,7 +31,7 @@ html {
 	margin: 0px;
 }
 body {
-	font-family: "Mulish";
+	font-family: 'Mulish';
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.5px;
@@ -113,7 +113,7 @@ h5,
 h6 {
 	font-weight: 600;
 	line-height: 1.4;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	color: #000;
 }
 
@@ -161,7 +161,7 @@ h6 {
 }
 #preloader:before,
 #preloader:after {
-	content: "";
+	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -188,7 +188,7 @@ h6 {
 	transition: all 0.8s ease 0s;
 }
 .loader_line:before {
-	content: "";
+	content: '';
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -204,7 +204,7 @@ h6 {
 	animation: lineheight 1000ms ease-in-out 0s forwards;
 }
 .loader_line:after {
-	content: "";
+	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -295,7 +295,7 @@ h6 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px 40px 20px 50px;
+	padding: 20px 40px 10px 50px;
 }
 .ryker_tm_topbar .logo img {
 	max-width: 90px;
@@ -338,7 +338,7 @@ h6 {
 .ryker_tm_topbar .list ul li a {
 	text-decoration: none;
 	color: #000;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -432,7 +432,7 @@ h6 {
 	color: #000;
 	display: inline-block;
 	padding: 0px 0px;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	font-weight: 500;
 }
 
@@ -508,7 +508,7 @@ h6 {
 	border: 2px solid #d1701f;
 	display: inline-block;
 	padding: 15px 50px;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	border-radius: 50px;
 
 	-webkit-transition: all 0.3s ease;
@@ -523,15 +523,15 @@ h6 {
 }
 
 .ryker_tm_button .download_CV::after {
-	content: "\e9c2";
-	font-family: "icomoon";
+	content: '\e9c2';
+	font-family: 'icomoon';
 	font-size: 16px;
 	margin-left: 10px;
 }
 
 .ryker_tm_button .hire_me::after {
-	content: "\ea3e";
-	font-family: "icomoon";
+	content: '\ea3e';
+	font-family: 'icomoon';
 	font-size: 16px;
 	margin-left: 7px;
 }
@@ -585,7 +585,7 @@ h6 {
 }
 .short_skills .text:before {
 	position: absolute;
-	content: "";
+	content: '';
 	width: 1px;
 	height: 50px;
 	background-color: rgba(0, 0, 0, 0.1);
@@ -596,7 +596,7 @@ h6 {
 .short_skills .text span {
 	line-height: 1.4;
 	font-size: 13px;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 }
 .short_skills .icons {
 	/* margin-left: 80px; */
@@ -697,7 +697,7 @@ h6 {
 	float: left;
 }
 .ryker_tm_title span {
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #d1701f;
@@ -710,13 +710,13 @@ h6 {
 .ryker_tm_about .text {
 	width: 100%;
 	float: left;
-	padding-top: 30px;
-	margin-bottom: 35px;
+	padding-top: 18px;
+	margin-bottom: 20px;
 }
 .ryker_tm_about .signature {
 	width: 100%;
 	float: left;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .ryker_tm_about .signature img {
 	max-width: 250px;
@@ -762,7 +762,7 @@ h6 {
 	right: 0px;
 }
 #circle text {
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -869,7 +869,7 @@ h6 {
 	display: block;
 	text-align: left;
 	color: #000;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 }
 .progress_inner span.number {
 	float: right;
@@ -1031,7 +1031,7 @@ h6 {
 }
 .ryker_tm_portfolio .portfolio_list ul li .image .main:before {
 	background-color: #000;
-	content: "";
+	content: '';
 	height: 100%;
 	position: absolute;
 	transition: all 0.2s;
@@ -1043,7 +1043,7 @@ h6 {
 }
 .ryker_tm_portfolio .portfolio_list ul li .image .main:after {
 	background-color: #d1701f;
-	content: "";
+	content: '';
 	height: 100%;
 	position: absolute;
 	transition: all 0.2s;
@@ -1173,7 +1173,7 @@ h6 {
 }
 .ryker_tm_portfolio .portfolio_list .details span {
 	color: #ddd;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 }
 .ryker_tm_full_link {
 	position: absolute;
@@ -1424,7 +1424,7 @@ h6 {
 }
 .ryker_tm_video .rounded:before {
 	position: absolute;
-	content: "";
+	content: '';
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -1437,7 +1437,7 @@ h6 {
 }
 .ryker_tm_video .rounded:after {
 	position: absolute;
-	content: "";
+	content: '';
 	top: -10px;
 	bottom: -10px;
 	left: -10px;
@@ -1468,7 +1468,7 @@ h6 {
 }
 .ryker_tm_video .text {
 	color: #fff;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	max-width: 600px;
 	margin: 0px auto;
 	margin-bottom: 45px;
@@ -1520,7 +1520,7 @@ h6 {
 #grouploop .item-wrap .item span {
 	font-size: 180px;
 	font-weight: 800;
-	font-family: "Poppins";
+	font-family: 'Poppins';
 }
 .ryker_tm_testimonials .testimonials_list {
 	width: 100%;
@@ -1756,7 +1756,7 @@ h6 {
 }
 .ryker_tm_news ul li .details span a:before {
 	position: relative;
-	content: ".";
+	content: '.';
 	font-size: 40px;
 	top: -3px;
 	color: #767676;
@@ -1908,7 +1908,7 @@ h6 {
 }
 .ryker_tm_modalbox .details span a:before {
 	position: relative;
-	content: ".";
+	content: '.';
 	font-size: 40px;
 	top: -3px;
 	color: #7e7e7e;
@@ -2037,7 +2037,7 @@ h6 {
 	font-size: 16px;
 }
 .ryker_tm_contact .social_info ul li .info span {
-	font-family: "Poppins";
+	font-family: 'Poppins';
 }
 
 .ryker_tm_contact .short_info {
@@ -2096,7 +2096,7 @@ h6 {
 	font-size: 16px;
 }
 .ryker_tm_contact .short_info ul li .info span {
-	font-family: "Poppins";
+	font-family: 'Poppins';
 }
 
 .ryker_tm_contact .wrapper {
@@ -2188,8 +2188,8 @@ h6 {
 }
 
 #send_message::after {
-	content: "\e9a5";
-	font-family: "icomoon";
+	content: '\e9a5';
+	font-family: 'icomoon';
 	margin-left: 10px;
 }
 
@@ -2215,7 +2215,7 @@ h6 {
 }
 .ryker_tm_copyright .text p {
 	color: rgb(0, 0, 0);
-	font-family: "Poppins";
+	font-family: 'Poppins';
 }
 .ryker_tm_copyright .social ul {
 	margin: 0px;
@@ -2253,7 +2253,7 @@ h6 {
 /*	13) RYKER MAGIC CURSOR
 /*---------------------------------------------------*/
 
-.ryker_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
+.ryker_tm_all_wrap[data-magic-cursor='hide'] .mouse-cursor {
 	display: none;
 }
 .mouse-cursor {
