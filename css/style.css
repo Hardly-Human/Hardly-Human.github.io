@@ -2612,3 +2612,24 @@ h6 {
 		margin-top: 10px;
 	}
 }
+
+/* Mobile-M Screen */
+@media (max-width: 375px) {
+	.ryker_tm_modalbox.opened .box_inner {
+		display: flex;
+	}
+	.ryker_tm_modalbox .close {
+		position: unset;
+		padding-top: 20px;
+	}
+	.ryker_tm_modalbox .box_inner .close .svg {
+		width: 30px;
+		height: 30px;
+	}
+	.ryker_tm_modalbox .box_inner .close svg {
+		color: rgb(0, 0, 0);
+	}
+	.ryker_tm_contact .short_info ul li:last-child {
+		display: none;
+	}
+}
