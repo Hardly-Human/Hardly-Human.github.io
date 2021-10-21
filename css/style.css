@@ -2576,9 +2576,9 @@ h6 {
 		width: 100%;
 		padding-left: 0px;
 	}
-	/* .ryker_tm_modalbox .box_inner {
+	.ryker_tm_modalbox .box_inner {
 		width: 350px;
-	} */
+	}
 	.ryker_tm_modalbox .close {
 		margin-left: 10px;
 	}
