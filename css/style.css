@@ -2469,6 +2469,11 @@ h6 {
 		margin-top: 100px;
 		height: 100vh;
 	}
+	.ryker_tm_hero .avatar .image {
+		-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
+		-moz-box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
+		box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
+	}
 	.ryker_tm_hero .content {
 		height: 100vh;
 	}
@@ -2480,6 +2485,11 @@ h6 {
 	}
 	.ryker_tm_hero .desc p {
 		font-size: 16px;
+	}
+	.ryker_tm_hero .avatar .image {
+		-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
+		-moz-box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
+		box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.3);
 	}
 	.short_skills {
 		flex-direction: column;
@@ -2566,9 +2576,9 @@ h6 {
 		width: 100%;
 		padding-left: 0px;
 	}
-	.ryker_tm_modalbox .box_inner {
+	/* .ryker_tm_modalbox .box_inner {
 		width: 350px;
-	}
+	} */
 	.ryker_tm_modalbox .close {
 		margin-left: 10px;
 	}
