@@ -2307,33 +2307,6 @@ h6 {
 /*	14) RYKER MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
-@media (max-width: 1200px) {
-	.ryker_tm_modalbox .box_inner {
-		width: 600px;
-	}
-	.ryker_tm_modalbox .close {
-		margin-left: 10px;
-	}
-	.ryker_tm_modalbox .main_details {
-		flex-direction: column;
-	}
-	.ryker_tm_modalbox .main_details .textbox {
-		width: 100%;
-		padding-right: 0px;
-		margin-bottom: 40px;
-	}
-	.ryker_tm_modalbox .main_details .detailbox {
-		width: 100%;
-		padding-left: 0px;
-	}
-	.ryker_tm_modalbox .additional_images ul {
-		margin: 0px;
-	}
-	.ryker_tm_modalbox .additional_images ul li {
-		width: 100%;
-		padding-left: 0px;
-	}
-}
 @media (max-width: 1240px) {
 	.ryker_tm_topbar {
 		display: none;
@@ -2342,12 +2315,13 @@ h6 {
 		display: block;
 	}
 	#home {
-		margin-top: 100px;
+		height: 150vh;
 	}
 	.ryker_tm_hero .content {
 		flex-direction: column-reverse;
 		justify-content: center;
 		text-align: center;
+		height: 150vh;
 	}
 	.ryker_tm_hero .avatar {
 		min-width: 200px;
@@ -2461,6 +2435,45 @@ h6 {
 		margin-bottom: 5px;
 	}
 }
+
+@media (max-width: 1200px) {
+	.ryker_tm_modalbox .box_inner {
+		width: 600px;
+	}
+	.ryker_tm_modalbox .close {
+		margin-left: 10px;
+	}
+	.ryker_tm_modalbox .main_details {
+		flex-direction: column;
+	}
+	.ryker_tm_modalbox .main_details .textbox {
+		width: 100%;
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
+	.ryker_tm_modalbox .main_details .detailbox {
+		width: 100%;
+		padding-left: 0px;
+	}
+	.ryker_tm_modalbox .additional_images ul {
+		margin: 0px;
+	}
+	.ryker_tm_modalbox .additional_images ul li {
+		width: 100%;
+		padding-left: 0px;
+	}
+}
+
+@media (max-width: 1024px) {
+	#home {
+		margin-top: 100px;
+		height: 100vh;
+	}
+	.ryker_tm_hero .content {
+		height: 100vh;
+	}
+}
+
 @media (max-width: 768px) {
 	.ryker_tm_hero .job h3 {
 		font-size: 35px;
