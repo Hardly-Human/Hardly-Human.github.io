@@ -2334,12 +2334,15 @@ h6 {
 		padding-left: 0px;
 	}
 }
-@media (max-width: 1040px) {
+@media (max-width: 1240px) {
 	.ryker_tm_topbar {
 		display: none;
 	}
 	.ryker_tm_mobile_menu {
 		display: block;
+	}
+	#home {
+		margin-top: 100px;
 	}
 	.ryker_tm_hero .content {
 		flex-direction: column-reverse;
