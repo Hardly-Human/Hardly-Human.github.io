@@ -216,10 +216,10 @@ function ryker_tm_preloader() {
 	if (!isMobile) {
 		setTimeout(function () {
 			preloader.addClass("preloaded");
-		}, 800);
+		}, 0);
 		setTimeout(function () {
 			preloader.remove();
-		}, 1500);
+		}, 0);
 	} else {
 		preloader.remove();
 	}
@@ -232,7 +232,7 @@ function ryker_tm_preloader() {
 function ryker_tm_my_load() {
 	"use strict";
 
-	var speed = 500;
+	var speed = 0;
 	setTimeout(function () {
 		ryker_tm_preloader();
 	}, speed);
