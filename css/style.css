@@ -2618,6 +2618,9 @@ h6 {
 		width: 40px;
 		height: 40px;
 	}
+	.short_skills .icons ul li:last-child {
+		display: none;
+	}
 	.ryker_tm_button .hire_me {
 		margin-top: 10px;
 	}
