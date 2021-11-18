@@ -943,6 +943,58 @@ h6 {
 .ryker_tm_services .right ul li:nth-child(1) {
 	margin-top: 50px;
 }
+
+.ryker_tm_services .right ul li .card-container {
+	position: relative;
+	perspective: 1000px;
+}
+
+.ryker_tm_services .right ul li .card-container:hover .card {
+	transform: rotateY(180deg);
+}
+
+.ryker_tm_services .right ul li .card {
+	width: 100%;
+	height: auto;
+	position: relative;
+	transition: all 0.5s linear;
+	transform-style: preserve-3d;
+}
+
+.ryker_tm_services .right ul li .card .front,
+.ryker_tm_services .right ul li .card .back {
+	background: linear-gradient(
+		90deg,
+		rgba(248, 163, 23, 1) 0%,
+		rgba(253, 196, 7, 1) 100%
+	);
+	width: 100%;
+	height: auto;
+	position: absolute;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	padding: 55px 40px;
+	border-radius: 10px;
+}
+
+.ryker_tm_services .right ul li .card .front {
+	clear: both;
+	float: left;
+	position: relative;
+	z-index: 2;
+	backface-visibility: hidden;
+}
+.ryker_tm_services .right ul li .card .back {
+	z-index: 1;
+	transform: rotateY(180deg);
+}
+
+.ryker_tm_services .right ul li .card .back p {
+	height: 108px;
+	font-weight: 600;
+	font-style: italic;
+	color: #000;
+}
+
 .ryker_tm_services .right ul li .list_inner {
 	width: 100%;
 	height: auto;
@@ -2321,7 +2373,7 @@ h6 {
 		flex-direction: column-reverse;
 		justify-content: center;
 		text-align: center;
-		height: 150vh;
+		/* height: 150vh; */
 	}
 	.ryker_tm_hero .avatar {
 		min-width: 200px;
@@ -2477,6 +2529,9 @@ h6 {
 	.ryker_tm_hero .content {
 		height: 100vh;
 	}
+	.ryker_tm_services .right ul li .card .back p {
+		font-size: 1.5rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -2589,6 +2644,15 @@ h6 {
 	.ryker_tm_modalbox .description_wrap {
 		padding: 20px;
 	}
+	.ryker_tm_services .right ul li .card .back p {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+	#home {
+		margin-top: 100px;
+	}
 }
 
 /* Mobile-L Screen */
@@ -2623,6 +2687,9 @@ h6 {
 	}
 	.ryker_tm_button .hire_me {
 		margin-top: 10px;
+	}
+	.ryker_tm_services .right ul li .card .back p {
+		font-size: 1.3rem;
 	}
 }
 
