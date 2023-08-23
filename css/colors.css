@@ -7,7 +7,7 @@
 	background-color: #66b95c;
 }
 .ryker_tm_settings .colors li a.brown {
-	background-color: #d1701f;
+	background-color: #fb8d33;
 }
 .ryker_tm_settings .colors li a.pink {
 	background-color: #ff5e94;
@@ -223,26 +223,26 @@
 }
 
 .ryker_tm_all_wrap[data-color="brown"] .cursor-inner.cursor-hover {
-	background-color: #d1701f;
+	background-color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .cursor-outer {
-	border-color: #d1701f;
+	border-color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .cursor-inner {
-	background-color: #d1701f;
+	background-color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_topbar .list ul li.current a {
-	color: #d1701f;
+	color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_topbar .list ul li a:hover {
-	color: #d1701f;
+	color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_title span {
-	color: #d1701f;
+	color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_button a {
-	background-color: #d1701f;
-	border-color: #d1701f;
+	background-color: #fb8d33;
+	border-color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_button a:hover {
 	background-color: transparent;
@@ -260,7 +260,7 @@
 	color: #fff;
 }
 .ryker_tm_all_wrap[data-color="brown"] .progress_inner .background .bar_in {
-	background: #d1701f;
+	background: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_services .right ul li .svg {
 	color: #191102;
@@ -272,13 +272,13 @@
 	li
 	.image
 	.main:after {
-	background-color: #d1701f;
+	background-color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_video .rounded:before {
-	border-color: transparent transparent transparent #d1701f;
+	border-color: transparent transparent transparent #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_testimonials .stars li .svg {
-	color: #d1701f;
+	color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"]
 	.ryker_tm_news
@@ -287,7 +287,7 @@
 	.details
 	span
 	a:hover {
-	color: #d1701f;
+	color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"]
 	.ryker_tm_news
@@ -296,7 +296,7 @@
 	.details
 	.title
 	a:hover {
-	color: #d1701f;
+	color: #fb8d33;
 }
 .ryker_tm_all_wrap[data-color="brown"]
 	.ryker_tm_contact
@@ -307,7 +307,7 @@
 	color: #000000;
 }
 .ryker_tm_all_wrap[data-color="brown"] .ryker_tm_copyright {
-	/* background-color: #d1701f; */
+	/* background-color: #fb8d33; */
 	background: linear-gradient(
 		45deg,
 		rgba(248, 163, 23, 1) 50%,
@@ -319,7 +319,7 @@
 	.hide_content
 	.quotebox
 	p {
-	border-color: #d1701f;
+	border-color: #fb8d33;
 }
 
 .ryker_tm_all_wrap[data-color="pink"] .cursor-inner.cursor-hover {

@@ -1,2 +1,2 @@
-Sitemap: https://www.rehan.tech/sitemap.xml
+Sitemap: https://hardly-human.github.io/sitemap.xml
 User-agent: *

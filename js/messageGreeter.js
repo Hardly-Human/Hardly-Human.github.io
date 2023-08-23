@@ -41,16 +41,16 @@ function display_message(message, time_out, color, duration) {
 }
 
 $(document).ready(function () {
-	if (window.scrollY == 0) {
-		display_message("👋 Hi, I am Zeek!", 1500, 0, 4000);
-		display_message("Rehan's Virtual Assistant 🤖", 2500, 0, 4000);
-		display_message(
-			"I will be your companion in this journey 🚀",
-			3500,
-			0,
-			4000
-		);
-	}
+	// if (window.scrollY == 0) {
+	// 	display_message("👋 Hi, I am Zeek!", 1500, 0, 4000);
+	// 	display_message("Rehan's Virtual Assistant 🤖", 2500, 0, 4000);
+	// 	display_message(
+	// 		"I will be your companion in this journey 🚀",
+	// 		3500,
+	// 		0,
+	// 		4000
+	// 	);
+	// }
 });
 
 $(document).ready(function () {
@@ -70,7 +70,7 @@ $(document).ready(function () {
 		count += 1;
 
 		if (count > 2) {
-			display_message("😎 That sounds Dope!!", 0, 2, 1000);
+			display_message("😎 That sounds Dope!!", 1500, 0, 4000);
 		}
 	});
 });
@@ -116,7 +116,7 @@ function get_location() {
 			display_message(
 				"👈 Would love to have a converstion with you, let's connect!!",
 				1000,
-				1,
+				4,
 				5000
 			);
 

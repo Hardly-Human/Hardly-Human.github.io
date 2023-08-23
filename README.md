@@ -1,3 +1,3 @@
-# Portfolio Website [[Live]](https://www.rehan.tech)
+# Portfolio Website [[Live]](https://hardly-human.github.io)
 
-<a href="https://www.rehan.tech"><img src="./img/demo.png" /></a>
+<a href="https://hardly-human.github.io"><img src="./img/demo.png" /></a>
